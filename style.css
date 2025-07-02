@@ -108,3 +108,23 @@ img {
     text-align: center;
     color: hsl(0, 0%, 45%);
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 200px 500px
+}
+
+.person {
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 0;
+}
