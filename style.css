@@ -10,6 +10,10 @@ body {
     margin: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -80,6 +84,21 @@ img {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.header-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image p {
+    color: hsl(0, 0%, 35%);
+}
+
+.header-image a {
+    color: hsl(215, 35%, 35%);
 }
 
 .info-header {
